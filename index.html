@@ -39,7 +39,7 @@
     <main>
             <section class="hero-section section">
             <h1 class="heading">Effective Solutions for Your Business</h1>
-            <button class="button-hero" type="button">Order Service</button>
+            <button class="button-hero" type="button" data-modal-open>Order Service</button>
         </section>
             <!--Наші переваги-->
         <section class="section">
@@ -354,11 +354,11 @@
         </div>
     </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="button-close">
-                <svg class="icon-close icon" width="16" height="16">
-                    <use href="./img/close.svg"></use>
+            <button class="button-close" data-modal-close aria-label="close">
+                <svg class="icon-close icon" width="8" height="8">
+                    <use href="./img/icons.svg#icon-icon-close-btn"></use>
                 </svg>
             </button>
         </div>
